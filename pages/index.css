@@ -1,0 +1,42 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/font-face/font-face.css");
+
+
+
+
+.page {
+  background-color: #2A2C2F;
+  font-family: 'Inter';
+}
+
+.conteanir {
+  max-width: 1280px;
+  margin: auto;
+  outline: 1px red solid;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang-link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  text-decoration-line: none;
+  color: #FFFFFF;
+}
+.header__lang-link:hover {
+  text-decoration-line: underline;
+}
