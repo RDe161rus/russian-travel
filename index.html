@@ -8,36 +8,64 @@
   <title>russian-travel</title>
 </head>
 <body class="page">
-  <div class="conteanir">
     <header class="header">
       <img class="header__logo" src="./images/logo/header__logo.svg" alt="Россия">
-      <div class="link">
+      <div class="header__link ">
         <a class="header__lang-link" href="#">Ru</a>
         <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
+    
     <main class="content">
       <section class="lead">
         <h1 class="title lead__title">Путешествия по России</h1>
         <p class="subtitle lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="laed__img" src="./images/russian-tur.jpg" alt="тур по России">
-        <p class="laed__caption">ваша полка — верхняя</p>
+        <figure class="lead__card">
+          <img class="lead__img" src="./images/russian-tur.jpg" alt="тур по России">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
+
       <section class="intro">
+        <h2 class="title intro__title">Чего мы там не видели?</h2>
+        <p class="text intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+        <ul class="intro__list">
+          <li class="intro__list-item">Часовых поясов <span class="intro__list-span">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-span">12</span></li>
+          <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-span">16</span></li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__list-span">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__list-span">241</span></li>
+        </ul>
+      </section>
+
+      <section class="photo-grid page__section">
+        <ul class="photo-grid__cards">
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-1.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-2.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-3.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-4.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-5.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-6.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-7.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-8.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-9.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-10.jpg" alt="Вид из окна"></li>
+          <li class="photo-grid__card"><img class="photo-grid__img" src="./images/item/__item-11.jpg" alt="Вид из окна"></li>
+        </ul>
+      </section>
+
+      <section class="places page__section">
 
       </section>
-      <section class="photo-grid">
 
-      </section>
-      <section class="places">
-
-      </section>
-      <section class="cover">
+      <section class="cover page__section">
 
       </section>
     </main>
-    <footer class="footer"
-    ></footer>
-  </div>  
+
+    <footer class="footer page__section">
+
+    </footer>
 </body>
 </html>
