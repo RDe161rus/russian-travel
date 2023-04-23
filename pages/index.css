@@ -22,29 +22,6 @@
 @import url("../blocks/intro/__list-span/intro__list-span.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__title/intro__title.css");
-
 /* PHOTO НАЧАЛО ТРЕТЕЙ СЕКЦИИ */
-.photo-grid {
-  outline: 2px solid red;
-
-  max-width: 1184px;
-}
-
-.photo-grid__cards {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 16px;
-  
-}
-
-.photo-grid__img {
-  max-width: 100%;
-  object-fit: contain;
-}
-
-
-/* НАЧАЛО  outline: 2px solid red; СЕКЦИИ */
+@import url("../blocks/photo-grid/__cards/photo-grid__cards.css");
+@import url("../blocks/photo-grid/__img/photo-grid__img.css");
