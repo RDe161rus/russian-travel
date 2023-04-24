@@ -25,3 +25,76 @@
 /* PHOTO НАЧАЛО ТРЕТЕЙ СЕКЦИИ */
 @import url("../blocks/photo-grid/__cards/photo-grid__cards.css");
 @import url("../blocks/photo-grid/__img/photo-grid__img.css");
+/* PLACES НАЧАЛО ЧЕТВЕРТОЙ СЕКЦИИ */
+
+
+.places {
+  margin: auto;
+  max-width: calc(100% - 296px);
+  padding-top: 92px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+}
+
+.place {
+  display: grid;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 1fr);
+  grid-template-rows: minmax(min-content, max-content) 1fr;
+  grid-template-areas: "title website"
+                       "image paragraphs";
+  gap: 48px 40px;
+}
+
+.place__title {
+  grid-area: title;
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.place__img {
+  grid-area: image;
+  width: 100%;
+  object-fit: contain;
+}
+
+.place__website {
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.place__url-heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #AAAAAA;
+}
+
+.place__link {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  list-style: none;
+  color: #ffffff;
+}
+
+.place__paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.place__paragraph {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
