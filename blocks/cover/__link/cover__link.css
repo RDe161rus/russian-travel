@@ -1,4 +1,42 @@
 .cover__link {
+  margin: 0 auto;
+  max-width: 1184px;
+  min-height: 740px;
+  aspect-ratio: 8 / 5;
+  background: linear-gradient(0deg, rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
+    url('../../../images/depot.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: #ffffff;
 }
+
+
+.cover__link:hover {
+  background: linear-gradient(0deg, rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)),
+    url('../../../images/depot.jpg');
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__link {
+    width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__link {
+    min-height: 200px;
+  }
+} 

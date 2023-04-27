@@ -7,7 +7,6 @@
   line-height: 76px;
   text-align: center;
   list-style: none;
-  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {

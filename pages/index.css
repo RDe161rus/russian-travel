@@ -1,11 +1,11 @@
 @import url("../vendor/normalize.css");
+@import url("../fonts/fonts.css");
 @import url("../blocks/root/root.css");
-@import url("../blocks/font-face/font-face.css");
-@import url("../blocks/media/media.css");
 @import url("../blocks/page/page.css");
 /*CЕКЦИЯ HEADER */
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");
 @import url("../blocks/header/__link/header__link.css");
 @import url("../blocks/header/__logo/header__logo.css");
 /* LEAD НАЧАЛО ПЕРВОЙ СЕКЦИИ */
@@ -36,9 +36,7 @@
 @import url("../blocks/place/__url-heading/place__url-heading.css");
 @import url("../blocks/place/__website/place__website.css");
 /* COVER НАЧАЛО ПЯТОЙ СЕКЦИИ */
-@import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__link/cover__link.css");
-@import url("../blocks/cover/__overlay/cover__overlay.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__title/cover__title.css");
 /* СЕКЦИЯ FOOTER  */

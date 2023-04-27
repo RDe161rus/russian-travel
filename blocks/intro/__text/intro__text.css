@@ -5,9 +5,3 @@
   line-height: 163%;
   margin-top: 40px;
 }
-@media screen and (max-width: 426px){
-  .intro__text {
-    font-size: 16px;
-    line-height: 163%;
-  }
-}
