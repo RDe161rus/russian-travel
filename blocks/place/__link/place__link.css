@@ -8,6 +8,6 @@
   list-style: none;
   color: #ffffff;
 }
- .place__links:hover {
+ .place__link:hover {
   opacity: 0.8;
  }
